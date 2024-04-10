@@ -1,0 +1,17 @@
+tags:
+- Book
+description: |
+  This endpoint generates access token
+summary: generate access token endpoint
+
+
+              
+responses:
+  200:
+    description: Success
+  400:
+    description: Invalid request body
+  401:
+    description: Unauthorized
+  500:
+    description: Internal server error
